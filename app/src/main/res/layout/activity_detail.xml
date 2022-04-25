@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".activity.DetailActivity">
+    <TextView
+        android:id="@+id/tv_detailNameAndHeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        tools:text="Crispy Fish Goujons with Sweet Potato Wedges and Minted Snap Peas"/>
+    <ImageView
+        android:id="@+id/iv_detailImage"
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:background="@color/light_gray"
+        tools:src="@drawable/test"/>
+    <TextView
+        android:id="@+id/tv_detailDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/dim_gray"
+        tools:text="There\u2019s nothing like the simple things in life - the smell of freshly cut grass, sitting outside on a nice sunny day, spending time with friends and family. Well here is a recipe that delivers simple culinary pleasures - some nice fresh fish with a crispy crust, crunchy potato wedges and some delightfully sweet sugar snap peas flavoured with cooling mint. Slip into something comfortable and relax into a delicious dinner!"/>
+    <TextView
+        android:id="@+id/tv_detailValues1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/dim_gray"
+        android:textStyle="bold"
+        tools:text="◦ Difficulty: 0 | Time: 30 min"/>
+    <TextView
+        android:id="@+id/tv_detailValues2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/dim_gray"
+        android:textStyle="bold"
+        tools:text="◦ Calories: 516 kcal | Carbos: 47 g"/>
+    <TextView
+        android:id="@+id/tv_detailValues3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/dim_gray"
+        android:textStyle="bold"
+        tools:text="◦ Fats: 8 g | Proteins: 43 g"/>
+    <Button
+        android:id="@+id/bt_favorite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        tools:text="Add favorite"/>
+</LinearLayout>

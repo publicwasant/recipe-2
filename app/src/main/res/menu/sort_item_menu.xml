@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/im_sortByName"
+        android:icon="@drawable/ic_short_text"
+        android:title="Sort by name" />
+    <item
+        android:id="@+id/im_sortByCalories"
+        android:icon="@drawable/ic_short_text"
+        android:title="Sort by calories" />
+    <item
+        android:id="@+id/im_sortByProteins"
+        android:icon="@drawable/ic_short_text"
+        android:title="Sort by proteins" />
+    <item
+        android:id="@+id/im_sortByFavorite"
+        android:icon="@drawable/ic_favorite"
+        android:title="Sort by favorite" />
+</menu>
